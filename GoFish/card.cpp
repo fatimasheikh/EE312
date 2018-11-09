@@ -3,7 +3,9 @@
 //EE312 11/04/18
 
 #include <iostream>
-//#include <cstring>
+#include <cstring>
+#include <string>
+#include <sstream>
 #include "card.h"
 
 using namespace std;
@@ -66,9 +68,14 @@ using namespace std;
     else if (r == 13) {
       rank = "K";
     }
-    else {
-      rank = to_string(r);
+    else if (r > 0 && r < 11) {
+      stringstream ss;
+      ss << r;
+      rank = ss.str();
     }
+
+    //else {rank = to_string(r);}
+
     return rank;
   }
 

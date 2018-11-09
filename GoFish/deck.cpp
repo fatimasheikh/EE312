@@ -69,15 +69,3 @@ using namespace std;
       cout << endl;
     }
   }
-
-
-
-  //Card::Suit s;
-  //int suitInd = static_cast<int>(s);
-//  for (Card::Suit suitInd = static_cast<int>(Card::spades); suitInd <= Card::clubs; suitInd++) {
-  //for (Card::Suit suitInd = Card::spades; suitInd <= Card::clubs; suitInd++) {
-  //Card::Suit suitInd = Card::spades;
-  //for (int suit = Card.spades; suit <= Card.clubs; suit++) {
-
-  //Card c(rankInd, suitInd);
-  //myCards[index] = c.toString();

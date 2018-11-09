@@ -4,6 +4,9 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <sstream>
 #include "player.h"
 #include "deck.h"
 #include "card.h"
@@ -11,7 +14,14 @@
 using namespace std;
 
   Player::Player() {
-    myName = "Player"; //want to do player 1, player 2, etc.
+    static int playerNum = 1;
+    //int to string conversion
+    string playerString;
+    stringstream ss;
+    ss << playerNum;
+    playerString = ss.str();
+    myName = "Player " + playerString; //want to do player 1, player 2, etc.
+    playerNum++;
     srand((unsigned)time(0));
   }
 
@@ -88,7 +98,6 @@ using namespace std;
       temp = (*it).toString();
       hand = hand + temp + " ";
     }
-    //cout << hand; //do we print here or in main??
     return hand;
   }
 
@@ -100,7 +109,6 @@ using namespace std;
       temp = (*it).toString();
       books = books + temp + " ";
     }
-    //cout << books; //do we print here or in main??
     return books;
   }
 

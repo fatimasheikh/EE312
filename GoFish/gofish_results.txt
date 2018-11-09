@@ -1,0 +1,226 @@
+Joe books 10h & 10s.
+Joe books 7d & 7s.
+
+Jane books 8s & 8h.
+
+Joe asks - Do you have a 6?
+Jane says - Go Fish
+Joe draws 5s
+
+Jane asks - Do you have a J?
+Joe says - Go Fish
+Jane draws 4h
+
+Joe asks - Do you have a 6?
+Jane says - Go Fish
+Joe draws Js
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 3s
+
+Joe asks - Do you have a 4?
+Jane says - Yes. I have a 4.
+Joe books 4c & 4h.
+
+Joe asks - Do you have a J?
+Jane says - Yes. I have a J.
+Joe books Js & Jd.
+
+Joe asks - Do you have a 3?
+Jane says - Yes. I have a 3.
+Joe books 3h & 3s.
+
+Joe asks - Do you have a 6?
+Jane says - Go Fish
+Joe draws Jc
+
+Jane asks - Do you have a 9?
+Joe says - Go Fish
+Jane draws 7h
+
+Joe asks - Do you have a J?
+Jane says - Go Fish
+Joe draws 4s
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws Ks
+Jane books Kd & Ks.
+
+Jane asks - Do you have a 7?
+Joe says - Go Fish
+Jane draws 10d
+
+Joe asks - Do you have a J?
+Jane says - Go Fish
+Joe draws Ad
+
+Jane asks - Do you have a 9?
+Joe says - Go Fish
+Jane draws Kh
+
+Joe asks - Do you have a 5?
+Jane says - Go Fish
+Joe draws 10c
+
+Jane asks - Do you have a 2?
+Joe says - Go Fish
+Jane draws 5d
+
+Joe asks - Do you have a J?
+Jane says - Go Fish
+Joe draws 2d
+
+Jane asks - Do you have a 2?
+Joe says - Yes. I have a 2.
+Jane books 2c & 2d.
+
+Jane asks - Do you have a 9?
+Joe says - Go Fish
+Jane draws 9d
+Jane books 9s & 9d.
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 4d
+
+Joe asks - Do you have a J?
+Jane says - Go Fish
+Joe draws Kc
+
+Jane asks - Do you have a 10?
+Joe says - Yes. I have a 10.
+Jane books 10d & 10c.
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws As
+
+Joe asks - Do you have a J?
+Jane says - Go Fish
+Joe draws 9h
+
+Jane asks - Do you have a K?
+Joe says - Yes. I have a K.
+Jane books Kh & Kc.
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 7c
+Jane books 7h & 7c.
+
+Jane asks - Do you have a A?
+Joe says - Yes. I have a A.
+Jane books As & Ad.
+
+Jane asks - Do you have a 4?
+Joe says - Yes. I have a 4.
+Jane books 4d & 4s.
+
+Jane asks - Do you have a 5?
+Joe says - Yes. I have a 5.
+Jane books 5d & 5s.
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 2h
+
+Joe asks - Do you have a 9?
+Jane says - Go Fish
+Joe draws Jh
+Joe books Jc & Jh.
+
+Joe asks - Do you have a 9?
+Jane says - Go Fish
+Joe draws Ah
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 6d
+
+Joe asks - Do you have a A?
+Jane says - Go Fish
+Joe draws Qc
+
+Jane asks - Do you have a 6?
+Joe says - Yes. I have a 6.
+Jane books 6d & 6s.
+
+Jane asks - Do you have a 2?
+Joe says - Go Fish
+Jane draws Qs
+
+Joe asks - Do you have a Q?
+Jane says - Yes. I have a Q.
+Joe books Qc & Qs.
+
+Joe asks - Do you have a A?
+Jane says - Go Fish
+Joe draws 6h
+
+Jane asks - Do you have a 8?
+Joe says - Go Fish
+Jane draws 3c
+
+Joe asks - Do you have a 6?
+Jane says - Go Fish
+Joe draws 8c
+
+Jane asks - Do you have a 3?
+Joe says - Go Fish
+Jane draws Ac
+
+Joe asks - Do you have a 6?
+Jane says - Go Fish
+Joe draws 2s
+
+Jane asks - Do you have a 3?
+Joe says - Go Fish
+Jane draws 3d
+Jane books 3c & 3d.
+
+Jane asks - Do you have a 2?
+Joe says - Yes. I have a 2.
+Jane books 2h & 2s.
+
+Jane asks - Do you have a A?
+Joe says - Yes. I have a A.
+Jane books Ac & Ah.
+
+Jane asks - Do you have a 8?
+Joe says - Yes. I have a 8.
+Jane books 8d & 8c.
+
+Joe asks - Do you have a 9?
+Jane says - Go Fish
+Joe draws Qd
+
+Jane asks - Do you have a 6?
+Joe says - Yes. I have a 6.
+Jane books 6c & 6h.
+
+Joe asks - Do you have a 9?
+Jane says - Go Fish
+Joe draws Qh
+Joe books Qd & Qh.
+
+Joe asks - Do you have a 9?
+Jane says - Go Fish
+Joe draws 5c
+
+Jane asks - Do you have a 5?
+Joe says - Yes. I have a 5.
+Jane books 5h & 5c.
+
+Joe asks - Do you have a 9?
+Jane says - Yes. I have a 9.
+Joe books 9h & 9c.
+
+Winner is Jane
+
+Jane has 17 books.
+Jane's books: 8s 8h Kd Ks 2c 2d 9s 9d 10d 10c Kh Kc 7h 7c As Ad 4d 4s 5d 5s 6d 6s 3c 3d 2h 2s Ac Ah 8d 8c 6c 6h 5h 5c 
+
+Joe has 9 books.
+Joe's books: 10h 10s 7d 7s 4c 4h Js Jd 3h 3s Jc Jh Qc Qs Qd Qh 9h 9c 
