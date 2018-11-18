@@ -2,7 +2,7 @@
 // EE 312 Fall 2018
 //
 // The BST should work for any data type or object.
-// Other user created objects must have the << operator overloaded for 
+// Other user created objects must have the << operator overloaded for
 // output.
 //
 
@@ -22,10 +22,11 @@ void print(vector<T> vec){
 int main() {
 
     ifstream inFile;
-    inFile.open("test.txt");
+    inFile.open("test2.txt");
 
     BST_312<string> bst;
-   
+//    bst.insertItem("s");
+
     string s;
     inFile >> s;
     while (inFile) {;
@@ -45,7 +46,7 @@ int main() {
     cout << "inorder traversal is " << endl;
     print(bst.inOrderTraversal());
     cout << endl;
-
+/*
     cout << "Remove items " << endl;
     cout << "number of nodes in tree before delete is " << bst.countNodes() << endl;
     s = "tree";
@@ -54,6 +55,5 @@ int main() {
     cout << endl;
     cout << "number of nodes in tree after delete is " << bst.countNodes() << endl;
     cout << endl;
-
+*/
 }
-
