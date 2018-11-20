@@ -141,6 +141,7 @@ private:
     void preOrderTraversal(TreeNode* t,vector<ItemType>& result) const;
     void postOrderTraversal(TreeNode* t,vector<ItemType>& result) const;
     void copyTree(TreeNode*& copy, const TreeNode *originalTree);
+    bool isItemInTreeHelper(TreeNode*& t, const ItemType& newItem); //new private helper function added
 
 };
 
@@ -416,17 +417,43 @@ vector<ItemType> BST_312 <ItemType>::postOrderTraversal()
 }
 
 template<class ItemType>
+bool BST_312 <ItemType>::isItemInTreeHelper(TreeNode*& t, const ItemType& newItem)
+{
+  if (t == NULL) {
+    return false;
+  }
+  if (newItem < t->data) {
+    return isItemInTreeHelper(t->left, newItem);
+  }
+  if (newItem > t->data) {
+    return isItemInTreeHelper(t->right, newItem);
+  }
+  if (t->data == newItem) {
+    return true;
+  }
+  return false;
+
+}
+
+template<class ItemType>
 bool BST_312 <ItemType>::isItemInTree(const ItemType& item)
 {
   //YOUR CODE GOES HERE
-  vector <ItemType> tree;
+  if(isEmpty()) {
+    return false;
+  }
+  else {
+    return isItemInTreeHelper(root, item);
+  }
+
+}
+//iterative:
+/*  vector <ItemType> tree;
   inOrderTraversal(root, tree);
   for (int i=0; i < tree.size() ; i++) {
     if (tree[i] == item) {
       return true;
     }
   }
-  return false;
-
-}
+  return false;*/
 #endif
