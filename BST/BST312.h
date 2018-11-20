@@ -250,21 +250,36 @@ template<class ItemType>
 void BST_312 <ItemType>::makeEmpty(TreeNode*& t)
 {
     //YOUR CODE GOES HERE
-    TreeNode *tempPtr;
-    tempPtr = t;
+    //TreeNode *tempPtr;
+    //tempPtr = t;
 
-    if (t->left == NULL && t->right == NULL) {
-      deleteNode(tempPtr);
+
+    if (t == NULL) {
       return;
     }
-    else if (t->left == NULL) {
-      makeEmpty(t->right);
-    }
-    else {
-      makeEmpty(t->left);
-    }
+    makeEmpty(t->left);
+    makeEmpty(t->right);
+    delete(t);
+
 }
 
+/*
+if (t == NULL) {
+  return;
+}
+if (t->left == NULL && t->right == NULL) { //leaf
+  deleteNode(t);
+  return;
+}
+else {
+  if (t->left != NULL) {
+    makeEmpty(t->left);
+  }
+  if (t->right != NULL) {
+    makeEmpty(t->right);
+  }
+}
+*/
 template<class ItemType>
 void BST_312 <ItemType>::makeEmpty()
 {
@@ -326,20 +341,36 @@ void BST_312 <ItemType>::insertItem(const ItemType& newItem)
     if (!isFull()) {
       insertItem(root, newItem);
     }
+
 }
+/*
+if (!isFull()) {
+  TreeNode *tempPtr;
+  tempPtr = root;
+  if (isEmpty()) {
+    insertItem(tempPtr, newItem);
+    root = tempPtr;
+  }
+  else {
+    insertItem(tempPtr, newItem);
+  }
 
-
+}
+*/
 
 template<class ItemType>
 int BST_312 <ItemType>::countNodes(TreeNode* t) const
 {
     //YOUR CODE GOES HERE
     if (t == NULL) {
+      return 0;
+    }
+    else if (t != NULL) {
       return 1;
     }
-    else {
-
-    }
+    //countNodes(t->left);
+    //countNodes(t->right);
+    return countNodes(t->left) + countNodes(t->right);
 
 
 }
@@ -353,7 +384,7 @@ int BST_312 <ItemType>::countNodes()
       return 0;
     }
     else {
-      countNodes(root);
+      return countNodes(root);
     }
 }
 
